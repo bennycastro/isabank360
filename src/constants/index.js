@@ -2,22 +2,23 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 
 export const navLinks = [
   {
-    id: "home",
+    id: "Inicio",
     title: "Inicio",
   },
   {
-    id: "features",
+    id: "Caracteristicas",
     title: "Características",
   },
   {
-    id: "product",
+    id: "Producto",
     title: "Producto",
   },
   {
-    id: "clients",
+    id: "Clientes",
     title: "Clientes",
   },
 ];
+
 
 export const features = [
   {
@@ -93,50 +94,62 @@ export const footerLinks = [
     title: "Enlaces",
     links: [
       {
+        id:"Contenido",
         name: "Contenido",
-        link: "https://www.hoobank.com/content/",
+        
       },
       {
+        id:"How",
         name: "Como trabaja ISABank",
-        link: "https://www.hoobank.com/how-it-works/",
+       
       },
       {
+        id:"Crea",
         name: "Crea",
-        link: "https://www.hoobank.com/create/",
+        
       },
       {
+        id:"Explora",
         name: "Explora",
-        link: "https://www.hoobank.com/explore/",
+        
       },
       {
-        name: "Terminos & Condiciones",
-        link: "https://www.hoobank.com/terms-and-services/",
+        id:"Terminos",
+        name: "Términos y Condiciones",
+      
       },
+           
     ],
   },
   {
     title: "Community",
     links: [
       {
-        name: "Atención a Clientes",
-        link: "https://www.hoobank.com/help-center/",
+        id:"Cac",
+        name: "Centro de Atención",
+        
       },
       {
+        id:"Partners",
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+       
       },
       {
-        name: "FAQ´s",
-        link: "https://www.hoobank.com/suggestions/",
+        id:"Faq",
+        name: "Faq´s",
       },
       {
+        id:"Blog",
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+       
+        
       },
       {
-        name: "Boletín",
-        link: "https://www.hoobank.com/newsletters/",
+        id:"Boletin",
+        name: "Boletin",
+      
       },
+     
     ],
   },
   {
@@ -147,8 +160,9 @@ export const footerLinks = [
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Forma parte del equipo",
-        link: "https://www.hoobank.com/become-a-partner/",
+        id:"Forma",
+        name: "Forma Parte del Equipo",
+      
       },
     ],
   },

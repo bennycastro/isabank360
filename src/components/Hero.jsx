@@ -33,7 +33,7 @@ const Hero = () => {
         </p>
       </div>
     
-      <div className="graphic lg:-mt-[100px] lg:ml-[80px]">
+      <div className="graphic lg:-mt-[70px] lg:ml-[80px]">
                 <div className="graphic-circles absolute">
                   <img src={internal} alt="" className="graphic-circle-1 absolute"/>
                   <img src={external} alt="" className="graphic-circle-2 absolute"/>
