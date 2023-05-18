@@ -2,20 +2,22 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 
 export const navLinks = [
   {
-    id: "Inicio",
-    title: "Inicio",
+    id: "Que_hacemos",
+    title: "Qué Hacemos",
   },
   {
-    id: "Caracteristicas",
-    title: "Características",
+    id: "Soluciones",
+    title: "Soluciones",
   },
-  {
-    id: "Producto",
-    title: "Producto",
-  },
+ 
   {
     id: "Clientes",
     title: "Clientes",
+  },
+  ,
+  {
+    id: "Clientes",
+    title: "Contáctenos",
   },
 ];
 
@@ -153,19 +155,50 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Partner",
+    title: "Compañia",
     links: [
       {
-        name: "Nuestos Partner",
+        name: "Acerca de Nosotros",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        id:"Forma",
-        name: "Forma Parte del Equipo",
-      
+        name: "Nuestras Oficinas",
+        link: "https://www.hoobank.com/our-partner/",
+      },
+      {
+        name: "Tu Carrera",
+        link: "https://www.hoobank.com/our-partner/",
+      },
+      {
+        name: "Posiciones Abiertas",
+        link: "https://www.hoobank.com/our-partner/",
       },
     ],
   },
+  
+  {
+    title: "Técnología",
+    links: [
+      {
+        name: "Nuestras Plataforma",
+        link: "https://www.hoobank.com/our-partner/",
+      },
+      {
+        name: "Orquestador de Procesos",
+        link: "https://www.hoobank.com/our-partner/",
+      },
+      {
+        name: "Seguridad y Cumplimiento",
+        link: "https://www.hoobank.com/our-partner/",
+      },
+      {
+        name: "Enfoque Multinube",
+        link: "https://www.hoobank.com/our-partner/",
+      },
+      
+    ],
+  },
+ 
 ];
 
 export const socialMedia = [

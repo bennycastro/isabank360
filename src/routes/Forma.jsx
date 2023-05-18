@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles'
-import {   Navbar,   Footer         
+import {   Navbar,   Footer , Billing     
          } from '../components'
 
 const Forma = () => {
@@ -18,7 +18,9 @@ const Forma = () => {
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-        
+      
+          <Billing />
+         
           <Footer />
         </div>
       </div>

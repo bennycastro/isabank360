@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles'
-import {   Navbar,   Footer        
+import {   Navbar,   Footer , Clients ,Hero_2
          } from '../components'
 const Clientes = () => {
   return (
@@ -8,7 +8,11 @@ const Clientes = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
-          <h1>Contenido</h1>
+          <Hero_2
+          Title="Nuestros "
+          Intro="Clientes"
+          Description="Los clientes quieren mejores formas de administrar su dinero.  Están buscando opciones y conveniencia, y todo esto significa cambio. Nuestra plataforma de banca en la nube ayuda a que se produzcan cambios financieros. Diferencie, colabore y dé nueva vida a los servicios." />
+          
         </div>
       </div>
       <div className={`bg-primary ${styles.flexStart}`}>
@@ -18,7 +22,9 @@ const Clientes = () => {
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-        
+      
+          <Clients />
+         
           <Footer />
         </div>
       </div>

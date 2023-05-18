@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '../styles'
-import {   Navbar,   Footer        
-         } from '../components'
+import {   Navbar,   Footer , Business, Billing , CTA  } from '../components'
 const How = () => {
   return (
 <div className='bg-primary w-full overflow-hidden'>
@@ -18,7 +17,11 @@ const How = () => {
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-        <h1>Contenido</h1>
+      
+          <Business />
+          <Billing />
+      
+          <CTA />
           <Footer />
         </div>
       </div>

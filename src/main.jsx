@@ -5,7 +5,10 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
-import { Caracteristicas, Producto, Clientes, Contenido, Crea, Explora, Terminos, How, Cac, Partners,  Faq,  Blog,  Boletin,  Forma } from './routes';
+import { Soluciones, Producto, Clientes, Contenido,
+        Crea, Explora, Terminos, How, Cac, Partners,  Faq,
+        Blog,  Boletin,  Forma, Que_hacemos, } from './routes';
+
 
 
 const router = createBrowserRouter([
@@ -15,8 +18,8 @@ const router = createBrowserRouter([
   errorElement: <App />,
   },
   {
-  path: "/Caracteristicas",
-  element : <Caracteristicas />,
+  path: "/Soluciones",
+  element : <Soluciones />,
   },
   {
   path: "/How",
@@ -70,6 +73,10 @@ const router = createBrowserRouter([
       path: "/Forma",
       element : <Forma />,  
       },
+      {
+        path: "/Que_hacemos",
+        element : <Que_hacemos />,  
+        },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

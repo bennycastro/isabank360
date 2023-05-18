@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles'
-import {   Navbar,   Footer        
+import {   Navbar,   Footer   , Stats     
          } from '../components'
 const Explora = () => {
   return (
@@ -18,7 +18,9 @@ const Explora = () => {
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-        <h1>Contenido</h1>
+        
+        <Stats />
+         
           <Footer />
         </div>
       </div>

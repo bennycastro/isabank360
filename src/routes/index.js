@@ -1,5 +1,5 @@
 
-import Caracteristicas from './Caracteristicas';
+import Soluciones from './Soluciones';
 import Clientes from './Clientes';
 import Contenido from './Contenido';
 import Crea from './Crea';
@@ -13,12 +13,13 @@ import Faq from './Faq';
 import Blog from './Blog';
 import Boletin from './Boletin';
 import Forma from './forma';
+import Que_hacemos from './Que_hacemos';
 
 
 
 
 export{
-    Caracteristicas,
+    Soluciones,
     Clientes,
     Contenido,
     Crea,
@@ -31,7 +32,8 @@ export{
     Faq,
     Blog,
     Boletin,
-    Forma
+    Forma,
+    Que_hacemos
 
 
 }

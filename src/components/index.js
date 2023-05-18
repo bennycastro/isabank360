@@ -12,6 +12,7 @@ import Footer from './Footer';
 import GetStarted from './GetStarted';
 import Stats from './Stats';
 import Testimonial from './Testimonial';
+import Hero_2 from './Hero_2';
 
 export{
     Hero,
@@ -26,6 +27,7 @@ export{
     Testimonial,
     Clients,
     CTA,
-    Footer
+    Footer,
+    Hero_2
 
 }
